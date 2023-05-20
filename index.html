@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANGEL ARED</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img id="logo" src="img/Logopng.png" alt="LogoUTT" width="250">
+        <h1>Sistema Automatizado Integral de Información de la <br> Universidad Tecnológica de  Tlaxcala</h1>
+    </header>
+    <hr>
+    <img src="img/mascotaUtt.png" alt="MascotaUTT" height="180">
+    <h2>Medios de Comunicación</h2>
+    <p class="comu">Formas de Comunicación Registrados a
+        <span style="color: blue;">Angel Ared Perez Rodriguez</span>
+    </p>
+    <!--Formulario para pedir datos-->
+    <form action="/formulario" method="post">
+        <h3>Agregar</h3>
+        <label>Tipo de Medio: <input type="text" name="Tipo" placeholder="Ingrese el Tipo de Medio" value="Teléfono de Casa"/>
+        </label>
+        <br>
+        <label>Descripción: <input type="text" name="Descripción" placeholder="Ingrese el Medio"/></label>
+        <br>
+        <label> <input type="radio" name="Estado"/> Activo </label>
+        <br>
+        <textarea name="Comentario" id="" cols="30" rows="3" placeholder="Comentarios">
+        </textarea>
+        <br>
+        <button type="reset">Agregar</button>
+    </form>
+    <br>
+
+    <!--ol = Lista Ordenada-->
+    <!--ul = Lista NO Ordenada-->
+
+    <ol>
+        <li>2022IDGS001</li>
+        <li>2022IDGS002</li>
+        <li>2022IDGS003</li>
+        <li>2022IDGS004</li>     
+        <li>
+            <ol>
+                <li style="list-style-type: circle;">Docente</li>
+                <li style="list-style-type: circle;">Alumno</li>
+                <li style="list-style-type: circle;">Capturista</li>
+            </ol>
+        </li>   
+    </ol>
+
+    <!--Tabla de Registros-->
+
+    <table style="width: 800px;">
+        <thead id="fondo">
+            <tr>
+                <th>Número</th>
+                <th>Tipo</th>
+                <th>Descripción</th>
+                <th>Comentario</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Correo Electrónico</td>
+                <td>arodri@live.com</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Teléfono Celular</td>
+                <td>241 134 24 22</td>
+                <td>Teléfono Personal</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+    <footer class="ultimo">
+        <a href="#logo">Ir al comienzo</a>
+        <a href="http://www.uttlaxcala.edu.mx/" target="_blank">Sitio Web UTT</a>
+        <p>Copyright © 2023 Universidad Tecnológica de Tlaxcala by Angel Perez.  All Rights Reserved</p>
+    </footer>
+    
+</body>
+</html>

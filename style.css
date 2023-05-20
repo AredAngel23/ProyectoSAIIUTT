@@ -1,0 +1,17 @@
+table, th, td {
+    border: 1px solid black;
+}
+/* Comentario */
+.comu {
+    border: solid #396844;
+    border-radius: 5px;
+    border-width: 4px;
+}
+
+#fondo {
+    background-color: #396844;
+}
+
+.ultimo {
+    background-color: #2E8B57;
+}
